@@ -102,7 +102,7 @@ public class Main {
             vieMoyenne += commandant.getSoldats()[i].getVie();
             attaqueMoyenne += commandant.getSoldats()[i].getAttaque();
         }
-        System.out.print("Vie moyenne: " + (int) (vieMoyenne / commandant.getSoldats().length) + "\n" +
+        System.out.println("Vie moyenne: " + (int) (vieMoyenne / commandant.getSoldats().length) + "\n" +
                 "Attaque moyenne: " + (int) (attaqueMoyenne / commandant.getSoldats().length));
 
     }
